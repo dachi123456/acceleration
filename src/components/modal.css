@@ -1,0 +1,28 @@
+.modal-div{
+    position: fixed;
+    width: 60%;
+    padding: 1rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: white; 
+    border: 1px solid #ccc;
+}
+.modal-div img{
+    width: 100%;
+}
+.close-btn{
+    position: absolute;
+    cursor: pointer;
+    top: -0.3rem;
+    left: -0.3rem;
+}
+.close-btn img{
+    width: 1.4rem;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

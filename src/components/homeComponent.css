@@ -1,0 +1,48 @@
+.container {
+  margin-top: 7rem;
+}
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 7rem;
+}
+
+.grid-item {
+  width: calc(25% - 10px);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.grid-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.see-more {
+  width: 8rem;
+  padding: 0.5rem;
+  background: #3840a7;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  border-radius: 0.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-item {
+    width: calc(33.33% - 10px); 
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grid-item {
+    width: calc(50% - 10px);
+  }
+}

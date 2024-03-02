@@ -1,0 +1,13 @@
+.input-div{
+    width: 70%;
+    margin: auto;
+}
+.input-div input {
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.7rem;
+    font-size: 1.2rem;
+}
+.input-div h2{
+    text-align: center;
+}
